@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rubitec</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="icon" href="logo.jpeg" type="image/jpeg">
+</head>
+<body>
+    <nav class="nav" id="nav">
+    <a href="#inicio" class="nav-logo">
+      <img src="logo.jpeg" alt="logo de Rubitec" class="nav-logo-img">
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#galeria">Galería</a></li>
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#ubicacion">Ubicación</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <header id="inicio">
+    <div class="stripe" aria-hidden="true"></div>
+    <div class="band" aria-hidden="true"></div>
+    <p class="eyebrow reveal-up">Bienvenido a</p>
+    <h1 class="reveal-up">Rubitec</h1>
+    <p class="tagline reveal-up"></p>
+    <div class="cta-row reveal-up">
+      <a href="#servicios" class="btn btn-ghost">Ver cuadros</a>
+      <button type="button" class="btn btn-custom" id="openCustomForm">Personaliza tu cuadro</button>
+    </div>
+    <div class="scroll-cue">Desplázate</div>
+
+  </header>
+
+  <section class="envios" id="envios">
+    <div class="grid envios-grid">
+      <div class="card">
+        <div class="card-body">
+          <div class="envio-icon">📦</div>
+          <h3>Envío estándar</h3>
+          <p>Entrega a domicilio en toda la región. Ideal si no tienes prisa.</p>
+          <span class="card-price">3–5 días hábiles</span>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <div class="envio-icon">🚀</div>
+          <h3>Envío express</h3>
+          <p>Preparamos y enviamos tu pieza con prioridad para que llegue antes.</p>
+          <span class="card-price">1–2 días hábiles</span>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <div class="envio-icon">🏬</div>
+          <h3>Recoge en tienda</h3>
+          <p>Pasa directamente por tu pedido, sin costo de envío.</p>
+          <span class="card-price">Gratis</span>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- ===== QUÉ HACEMOS COMO EMPRESA ===== -->
+  <section class="que-hacemos" id="que-hacemos">
+    <div class="que-hacemos-inner">
+      <div class="empresa-intro">
+        <span class="empresa-label">RUBITEC · NUESTRA EMPRESA</span>
+        <h2>¿Qué hacemos <span>como empresa?</span></h2>
+        <p>
+          En RUBITEC nos dedicamos a crear y ofrecer cuadros decorativos
+          pensados para transformar y personalizar diferentes espacios.
+          Combinamos creatividad, diseño y calidad para ofrecer piezas
+          que se adapten a distintos gustos y estilos.
+        </p>
+      </div>
+
+      <div class="empresa-grid">
+        <article class="empresa-card">
+          <div class="empresa-icon">🖼️</div>
+          <h3>Cuadros decorativos</h3>
+          <p>Ofrecemos diferentes diseños para darle personalidad y estilo a cada espacio.</p>
+        </article>
+
+        <article class="empresa-card">
+          <div class="empresa-icon">🎨</div>
+          <h3>Diseños personalizados</h3>
+          <p>Creamos opciones que permiten elegir una pieza acorde con tus gustos y necesidades.</p>
+        </article>
+
+        <article class="empresa-card">
+          <div class="empresa-icon">✨</div>
+          <h3>Creatividad y calidad</h3>
+          <p>Buscamos que cada pieza combine una presentación atractiva con un resultado de calidad.</p>
+        </article>
+
+        <article class="empresa-card">
+          <div class="empresa-icon">📦</div>
+          <h3>Preparación y envío</h3>
+          <p>Preparamos tus pedidos para que puedas recibir tu cuadro y disfrutarlo en tu espacio.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== QUIÉNES SOMOS ===== -->
+  <section class="quienes-somos" id="quienes-somos">
+    <p class="section-label">Conoce Rubitec</p>
+    <h2>Quiénes <span class="accent">somos</span></h2>
+    <p class="quienes-somos-text">
+     Elevamos la esencia de cada espacio a través de una visión superior del diseño.
+      En RUBITEC, desarrollamos piezas cuidadosamente concebidas para integrar elegancia, 
+       carácter y excelencia, creando ambientes distintivos que reflejan una identidad única y perduran en el tiempo
+    </p>
+
+
+    <div class="desarrolladores-grid">
+    <div class="desarrollador-card">
+      <img src="humberto_avatar.jpeg" class="desarrollador-avatar" alt="humberto_avatar">
+      <p class="desarrollador-rol">Desarrollador wed</p>
+      <h3>Humberto Antonio Borjas Galindo</h3>
+      <p>Desarrollador enfocado en crear soluciones digitales innovadoras, funcionales y de calidad para cada proyecto de RUBITEC.</p>
+    </div>
+
+    <div class="desarrollador-card">
+      <img src="erick_avatar.jpeg" class="desarrollador-avatar" alt="erick_avatar">
+      <p class="desarrollador-rol">Desarrollador sistema</p>
+      <h3>Erick de Jesús Aguirre Viveros</h3>
+      <p>Desarrollador enfocado en crear soluciones digitales innovadoras, funcionales y de calidad para cada proyecto de RUBITEC.</p>
+    </div>
+        <div class="desarrollador-card">
+          <img src="alfredo_avatar.jpeg" class="desarrollador-avatar" alt="alfredo_avatar">
+      <p class="desarrollador-rol">Documentista</p>
+      <h3>Alfredo Yael Velazquez Torres</h3>
+      <p>Documentista encargado de organizar, documentar y presentar la información de los proyectos de RUBITEC.</p>
+    </div>
+    <div class="desarrollador-card">
+      <img src="luis_avatar.jpeg" class="desarrollador-avatar" alt="luis_avatar">
+      <p class="desarrollador-rol">Documentista</p>
+      <h3>Luis Alexis Salazar Hernández</h3>
+      <p>Documentista encargado de organizar, documentar y presentar la información de los proyectos de RUBITEC.</p>
+    </div>
+      <div class="desarrollador-card">
+          <img src="maunel_avatar.jpeg" class="desarrollador-avatar" alt="maunel_avatar">
+      <p class="desarrollador-rol">Documentista</p>
+      <h3>Manuel Alexander Parra Romero</h3>
+      <p>Documentista encargado de organizar, documentar y presentar la información de los proyectos de RUBITEC.</p>
+    </div>
+<div class="desarrollador-card">
+  <img src="oldair_avatar.jpeg" class="desarrollador-avatar" alt="oldair_avatar
+  ">
+      <p class="desarrollador-rol">Diseñador</p>
+      <h3>Oldair Evaristo Arbuto Sanchez</h3>
+      <p>Diseñador encargado de la presentación visual y la identidad de los proyectos de RUBITEC.</p>
+    </div>
+
+</div>
+  </section>
+
+  <section class="video-showcase" id="video">
+    <p class="section-label">Míranos en acción</p>
+    <h2>Nuestro trabajo, <span class="accent">en vivo</span></h2>
+    <div class="video-frame">
+      <video src="en_vivo.mp4"
+      autoplay
+      muted
+      loop
+      playsinline
+      controls
+      preload="metadata"
+      aria-label="Video del proceso artesanal de Rubitec">
+    </video>
+    </div>
+  </section>
+
+  <section class="gallery" id="galeria">
+    <p class="section-label">Galería</p>
+    <h2>Algunos de nuestros <span class="accent">trabajos</span></h2>
+
+    <div class="gallery-pro" id="galleryPro">
+      <div class="gallery-stage">
+        <div class="gallery-slides" id="gallerySlides">
+          <figure class="gallery-slide is-active" data-index="0">
+            <img src="galeria1.jpeg" alt="Árbol de la vida" loading="lazy">
+          </figure>
+          <figure class="gallery-slide" data-index="1">
+            <img src="galeria_2.jpeg" alt="Atardecer y reflejo" loading="lazy">
+          </figure>
+          <figure class="gallery-slide" data-index="2">
+            <img src="galeria3.jpeg" alt="Cascada entre montañas" loading="lazy">
+          </figure>
+          <figure class="gallery-slide" data-index="3">
+            <img src="galeria4.jpeg" alt=" Paisaje nevado junto al río" loading="lazy">
+          </figure>
+          <figure class="gallery-slide" data-index="4">
+            <img src="galeria5.jpeg" alt="Montañas y lago" loading="lazy">
+          </figure>
+        </div>
+
+        <div class="gallery-caption">
+          <span class="gallery-caption-title" id="galleryCaptionTitle">Árbol de la vida</span>
+          <span class="gallery-caption-count" id="galleryCaptionCount">01 / 05</span>
+        </div>
+
+        <button type="button" class="gallery-arrow gallery-prev" id="galleryPrev" aria-label="Anterior">‹</button>
+        <button type="button" class="gallery-arrow gallery-next" id="galleryNext" aria-label="Siguiente">›</button>
+
+        <div class="gallery-progress"><div class="gallery-progress-bar" id="galleryProgressBar"></div></div>
+      </div>
+
+      <div class="gallery-thumbs" id="galleryThumbs">
+      <button type="button" class="gallery-thumb is-active" data-index="0" aria-label="Ver imagen 1: Árbol de la vida">
+      
+         </button>
+
+      <button type="button" class="gallery-thumb" data-index="1" aria-label="Ver imagen 2: Atardecer y reflejo">
+
+        </button>
+
+      <button type="button" class="gallery-thumb" data-index="2" aria-label="Ver imagen 3: Cascada entre montañas">
+
+         </button>
+
+      <button type="button" class="gallery-thumb" data-index="3" aria-label="Ver imagen 4: Paisaje nevado junto al río">
+
+         </button>
+
+      <button type="button" class="gallery-thumb" data-index="4" aria-label="Ver imagen 5: Montañas y lago">
+
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <main id="servicios">
+    <p class="section-label">Qué hacemos</p>
+    <div class="grid">
+      <div class="card">
+       <img src="lampara_calabaza.jpeg" alt="" class="card-img">
+        <div class="card-body">
+          <h3>Lámpara de calabaza</h3>
+          <p>Lámpara artesanal hecha con calabaza natural, perforada a mano y con detalles grabados, montada sobre base de madera.</p>
+          <span class="card-price">$2000</span>
+        </div>
+      </div>
+      <div class="card">
+        <img src="dragon.jpeg" alt="" class="card-img">
+        <div class="card-body">
+          <h3>Dragón</h3>
+          <p>Cuadro artesanal con figura de dragón en relieve sobre fondo pintado a mano, estilo cielo nocturno.</p>
+          <span class="card-price">$700</span>
+        </div>
+      </div>
+      <div class="card">
+      <img src="cuadros_pequeños.jpeg" alt="" class="card-img">
+        <div class="card-body">
+          <h3>Diversos cuadros medianos</h3>
+          <p>Colección de cuadros medianos con diseños variados, hechos a mano con acabados en relieve.</p>
+          <span class="card-price">$450 c/u</span>
+        </div>
+      </div>
+      <div class="card">
+       <img src="caja_musical.jpeg" alt="" class="card-img">
+        <div class="card-body">
+          <h3>Cajas musicales</h3>
+          <p>Cajas musicales de manivela con diseños de películas, series y anime, en madera grabada.</p>
+          <span class="card-price">$190</span>
+        </div>
+      </div>
+      <div class="card">
+        <img src="pines.jpeg" alt="" class="card-img">
+        <div class="card-body">
+          <h3>Pines</h3>
+          <p>Pines artesanales con diseños de personajes de películas, series y anime, en distintos tamaños.</p>
+          <span class="card-price">Chico $15 · Mediano $20 · Grande $30</span>
+        </div>
+      </div>
+      <div class="card">
+        <img src="taza_coraline.jpeg" alt="" class="card-img">
+        <div class="card-body">
+          <h3>Taza artesanal con diseño</h3>
+          <p>Taza de cerámica pintada y decorada a mano con diseño de personaje en relieve.</p>
+          <span class="card-price">$520</span>
+        </div>
+      </div>
+      <div class="card">
+        <img src="taza_hayao.jpeg" alt="" class="card-img">
+        <div class="card-body">
+          <h3>Taza artesanal con diseño</h3>
+          <p>Taza de cerámica pintada a mano con figura en relieve, base decorada y asa de color.</p>
+          <span class="card-price">$689</span>
+        </div>
+      </div>
+      <div class="card">
+        <img src="taza_snoopy.jpeg" alt="" class="card-img">
+          <div class="card-body">
+          <h3>Taza artesanal con diseño de Snoopy</h3>
+          <p>Taza de cerámica pintada a mano con figura de Snoopy en relieve y base en forma de casita.</p>
+          <span class="card-price">$650</span>
+        </div>
+      </div>
+      <div class="card">
+        <img src="taza_whini.jpeg" alt="" class="card-img">
+         <div class="card-body">
+          <h3>Taza artesanal con diseño de Winnie the Pooh</h3>
+          <p>Taza de cerámica pintada a mano con figura de Winnie Pooh y su miel en relieve.</p>
+          <span class="card-price">$520</span>
+        </div>
+      </div>
+      <div class="card">
+        <img src="exividor.jpeg" alt="" class="card-img">
+         <div class="card-body">
+          <h3>Exhibidor artesanal de madera</h3>
+          <p>Exhibidor de madera con variedad de aretes artesanales hechos a mano en diferentes diseños.</p>
+          <span class="card-price">$60</span>
+        </div>
+      </div>
+      <div class="card">
+        <img src="porta_celular.jpeg" alt="" class="card-img">
+        <div class="card-body">
+          <h3>Porta celular</h3>
+          <p>Porta celular de madera con diseño grabado y pintado a mano, estilo prehispánico con Pikachu.</p>
+          <span class="card-price">$330</span>
+        </div>
+      </div>
+      <div class="card">
+        <img src="jarro.jpeg" alt="" class="card-img">
+        <div class="card-body">
+          <h3>Jarrón</h3>
+          <p>Jarrón de cerámica con esmaltado artesanal en tonos azules y verdes, acabado texturizado.</p>
+          <span class="card-price">$220</span>
+        </div>
+      </div>
+      <div class="card">
+        <img src="planta_harry.jpeg" alt="" class="card-img">
+        <div class="card-body">
+          <h3>Mandrágora mágica de Harry Potter</h3>
+          <p>Figura artesanal de mandrágora en maceta, hecha a mano con acabado texturizado y detalles pintados.</p>
+          <span class="card-price">$850</span>
+        </div>
+      </div>
+      <div class="card">
+        <img src="luna_estrellada.jpeg" alt="" class="card-img">
+        <div class="card-body">
+          <h3>Cuadro La noche estrellada</h3>
+          <p>Reinterpretación artesanal de "La noche estrellada" con textura en relieve y ciprés tallado en 3D.</p>
+          <span class="card-price">$20000</span>
+        </div>
+      </div>
+      <div class="card">
+        <img src="llaveros.jpeg" alt="" class="card-img">
+        <div class="card-body">
+          <h3>Llaveros</h3>
+          <p>Llaveros artesanales de madera con diseños pintados y sellados en resina.</p>
+          <span class="card-price">$80</span>
+        </div>
+      </div>
+      <div class="card">
+        <img src="imanes.jpeg" alt="" class="card-img">
+        <div class="card-body">
+          <h3>Imanes</h3>
+          <p>Imanes artesanales en relieve con diseños de personajes de películas, series y anime.</p>
+          <span class="card-price">$180</span>
+        </div>
+      </div>
+      <div class="card">
+        <img src="porta_vasos.jpeg" alt="" class="card-img">
+        <div class="card-body">
+          <h3>Portavasos</h3>
+          <p>Juego de portavasos de madera pintados a mano con diseños de personajes de anime y películas.</p>
+          <span class="card-price">390
+          
+        </span>
+        </div>
+      </div>
+      <div class="card">
+        <img src="ajolote.jpeg" alt="" class="card-img">''
+        <div class="card-body">
+          <h3>Cuadro de ajolote</h3>
+          <p>Cuadro artesanal con figura de ajolote en relieve sobre fondo acuático, con acabado brillante y detalles en resina.</p>
+          <span class="card-price">$1800</span>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+  <section class="location" id="ubicacion">
+    <p class="section-label">Dónde estamos</p>
+    <p class="location-address">CEIT Misantla — José María Morelos y Pavón No. 105-B Altos, Centro, Misantla, Ver.</p>
+    <div class="map-wrap">
+      <iframe
+        src="https://www.openstreetmap.org/export/embed.html?bbox=-96.856295%2C19.927595%2C-96.844295%2C19.935595&layer=mapnik&marker=19.931595%2C-96.850295"
+        width="100%"
+        height="100%"
+        style="border:0;"
+        loading="lazy"
+        title="Ubicación de Rubitec">
+      </iframe>
+    </div>
+    <a class="map-link" href="https://maps.app.goo.gl/da6JxiuwcpyvoqYeA?g_st=ac" target="_blank" rel="noopener">Abrir en Google Maps →</a>
+  </section>
+
+  <div class="custom-modal" id="customModal" aria-hidden="true">
+    <div class="custom-modal-backdrop" data-close-custom></div>
+    <div class="custom-modal-card" role="dialog" aria-modal="true" aria-labelledby="customModalTitle">
+      <button type="button" class="custom-close" id="closeCustomForm" aria-label="Cerrar">&times;</button>
+      <p class="section-label">Personalización</p>
+      <h2 id="customModalTitle">Cuéntanos cómo quieres tu cuadro</h2>
+      <p class="custom-intro">Completa esta pequeña encuesta y te contactaremos por WhatsApp para revisar tu idea.</p>
+      <form id="customForm">
+        <label>Nombre
+          <input type="text" name="nombre" required placeholder="Tu nombre">
+        </label>
+        <label>¿Qué quieres personalizar?
+          <select name="producto" required>
+            <option value="" selected disabled>Selecciona una opción</option>
+            <option>Cuadro personalizado</option>
+            <option>Cuadro de ajolote</option>
+            <option>Otro diseño</option>
+          </select>
+        </label>
+        <label>¿Qué estilo o idea tienes?
+          <textarea name="idea" rows="3" required placeholder="Colores, imagen, nombre, frase, tamaño, etc."></textarea>
+        </label>
+        <label>Método de envío
+          <select name="envio" required>
+            <option value="" selected disabled>Selecciona una opción</option>
+            <option>Envío estándar (3–5 días hábiles)</option>
+            <option>Envío express (1–2 días hábiles)</option>
+            <option>Recoge en tienda (gratis)</option>
+          </select>
+        </label>
+        <label>Presupuesto aproximado (opcional)
+          <select name="presupuesto">
+            <option value="No especificado">No especificado</option>
+            <option>$500 - $1,000</option>
+            <option>$1,000 - $2,000</option>
+            <option>$2,000 - $3,000</option>
+            <option>Más de $3,000</option>
+          </select>
+        </label>
+        <button type="submit" class="btn btn-primary custom-submit">Enviar por WhatsApp</button>
+      </form>
+    </div>
+  </div>
+
+<footer id="contacto">
+    <div class="footer-top">
+      <strong>RUBITEC</strong>
+      <div class="footer-contact">
+        <span>Contacto:</span>
+        <a href="mailto:contacto@rubitec.com">@rubitec.com</a>
+        <button type="button" class="footer-custom-btn" id="openCustomFormFooter">Solicitar personalización</button>
+      </div>
+      <span>&copy; 2026 Rubitec. Todos los derechos reservados.</span>
+    </div>
+    <div class="footer-credits">
+      <span><strong class="credit-role">Desarrolladores:</strong> Humberto Antonio Borjas Galindo,  Erick de jesus aguirre viveros,Manuel Alexander Parra Romero </span>
+      <span><strong class="credit-role">Diseñadores:</strong> Alfredo Yael Velazquez Torres,  Oldair</span>
+    </div>
+  </footer>
+
+  <!-- WhatsApp flotante -->
+  <a class="whatsapp-float" href="https://wa.me/525656477873" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp al 56 5647 7873" title="Contactar por WhatsApp">
+    <svg viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+      <path d="M19.11 17.21c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.25-.46-2.38-1.47-.88-.78-1.47-1.74-1.64-2.04-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.49s1.07 2.89 1.22 3.09c.15.2 2.1 3.21 5.09 4.5.71.31 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.08 1.76-.72 2.01-1.42.25-.7.25-1.3.17-1.42-.07-.12-.27-.2-.57-.35zM16.03 4.02c-6.61 0-11.98 5.37-11.98 11.98 0 2.11.55 4.09 1.52 5.81L4 28l6.36-1.67a11.93 11.93 0 0 0 5.67 1.43h.01c6.61 0 11.98-5.37 11.98-11.98S22.64 4.02 16.03 4.02zm0 21.73h-.01a9.7 9.7 0 0 1-4.95-1.35l-.35-.21-3.77.99 1.01-3.67-.23-.38a9.72 9.72 0 1 1 8.3 4.62z"/>
+    </svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
